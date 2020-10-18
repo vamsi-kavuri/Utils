@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-18T02:46:36.233Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="iyEkQUrtIKB5Wi4O3Q9v" version="13.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-18T02:51:42.433Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="r_QqQ6BpOfs9raENhQiK" version="13.8.0" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="1642" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -239,63 +239,6 @@
             <mxPoint x="270" y="680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dJ2b0ydgVNQ7DlM4WQRw-102" value="Customers" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
-          <mxGeometry x="910" y="90" width="240" height="220" as="geometry" />
-        </mxCell>
-        <mxCell id="dJ2b0ydgVNQ7DlM4WQRw-103" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="dJ2b0ydgVNQ7DlM4WQRw-102">
-          <mxGeometry y="30" width="240" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="dJ2b0ydgVNQ7DlM4WQRw-104" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;" vertex="1" parent="dJ2b0ydgVNQ7DlM4WQRw-103">
-          <mxGeometry width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="dJ2b0ydgVNQ7DlM4WQRw-105" value="CustomerID int NOT NULL" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;" vertex="1" parent="dJ2b0ydgVNQ7DlM4WQRw-103">
-          <mxGeometry x="30" width="210" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="dJ2b0ydgVNQ7DlM4WQRw-106" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="dJ2b0ydgVNQ7DlM4WQRw-102">
-          <mxGeometry y="60" width="240" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="dJ2b0ydgVNQ7DlM4WQRw-107" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="dJ2b0ydgVNQ7DlM4WQRw-106">
-          <mxGeometry width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="dJ2b0ydgVNQ7DlM4WQRw-108" value="TRANSACTION int" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="dJ2b0ydgVNQ7DlM4WQRw-106">
-          <mxGeometry x="30" width="210" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="dJ2b0ydgVNQ7DlM4WQRw-109" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="dJ2b0ydgVNQ7DlM4WQRw-102">
-          <mxGeometry y="90" width="240" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="dJ2b0ydgVNQ7DlM4WQRw-110" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="dJ2b0ydgVNQ7DlM4WQRw-109">
-          <mxGeometry width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="dJ2b0ydgVNQ7DlM4WQRw-111" value="CUSTOMER_NAME VARCHAR(90)" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="dJ2b0ydgVNQ7DlM4WQRw-109">
-          <mxGeometry x="30" width="210" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="dJ2b0ydgVNQ7DlM4WQRw-112" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="dJ2b0ydgVNQ7DlM4WQRw-102">
-          <mxGeometry y="120" width="240" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="dJ2b0ydgVNQ7DlM4WQRw-113" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="dJ2b0ydgVNQ7DlM4WQRw-112">
-          <mxGeometry width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="dJ2b0ydgVNQ7DlM4WQRw-114" value="PHONE VARCHAR(12)" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="dJ2b0ydgVNQ7DlM4WQRw-112">
-          <mxGeometry x="30" width="210" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="dJ2b0ydgVNQ7DlM4WQRw-115" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="dJ2b0ydgVNQ7DlM4WQRw-102">
-          <mxGeometry y="150" width="240" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="dJ2b0ydgVNQ7DlM4WQRw-116" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="dJ2b0ydgVNQ7DlM4WQRw-115">
-          <mxGeometry width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="dJ2b0ydgVNQ7DlM4WQRw-117" value="STREET VARCHAR(90)" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="dJ2b0ydgVNQ7DlM4WQRw-115">
-          <mxGeometry x="30" width="210" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="dJ2b0ydgVNQ7DlM4WQRw-118" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="dJ2b0ydgVNQ7DlM4WQRw-102">
-          <mxGeometry y="180" width="240" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="dJ2b0ydgVNQ7DlM4WQRw-119" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="dJ2b0ydgVNQ7DlM4WQRw-118">
-          <mxGeometry width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="dJ2b0ydgVNQ7DlM4WQRw-120" value="CITY VARCHAR(90)" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="dJ2b0ydgVNQ7DlM4WQRw-118">
-          <mxGeometry x="30" width="210" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="dJ2b0ydgVNQ7DlM4WQRw-121" value="Transactions" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
           <mxGeometry x="1180" y="90" width="240" height="460" as="geometry" />
         </mxCell>
@@ -530,7 +473,7 @@
         <mxCell id="dJ2b0ydgVNQ7DlM4WQRw-28" value="Occupation VARCHAR(45)" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="dJ2b0ydgVNQ7DlM4WQRw-26">
           <mxGeometry x="30" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="dJ2b0ydgVNQ7DlM4WQRw-167" value="&lt;h1&gt;Notes&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;There is a duplicate customer detail in both designs.&amp;nbsp;&lt;/li&gt;&lt;li&gt;I have combined the additional details like phone number to the existing customers table&lt;/li&gt;&lt;li&gt;&lt;span&gt;CUSTOMER_NAME can be divided into first, Middle initial and last names and store it in&amp;nbsp;&lt;/span&gt;&lt;span&gt;FirstName, LastName, MI&lt;/span&gt;&lt;/li&gt;&lt;li&gt;STREET moved into StreetAddr column in the existing customer table&lt;/li&gt;&lt;li&gt;CITY moved&amp;nbsp; into city column in the existing customer table&amp;nbsp;&lt;/li&gt;&lt;li&gt;PhoneNumber Added to existing customer table&lt;/li&gt;&lt;li&gt;I choose VARCHAR with a 15 character length to support country codes as well&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;After making all the above changes, I have removed customer table from pre-owned design&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="dJ2b0ydgVNQ7DlM4WQRw-167" value="&lt;h1&gt;Notes&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;There is a duplicate customer detail in both designs except the TRANSACTION column. We will deal with it in the next iteration.&lt;/li&gt;&lt;li&gt;I have combined the additional details like phone number to the existing customers table.&lt;/li&gt;&lt;li&gt;&lt;span&gt;CUSTOMER_NAME can be divided into first, Middle initial and last names and store it in&amp;nbsp;&lt;/span&gt;&lt;span&gt;FirstName, LastName, MI&lt;/span&gt;&lt;/li&gt;&lt;li&gt;STREET moved into StreetAddr column in the existing customer table&lt;/li&gt;&lt;li&gt;CITY moved&amp;nbsp; into city column in the existing customer table&amp;nbsp;&lt;/li&gt;&lt;li&gt;PhoneNumber Added to existing customer table&lt;/li&gt;&lt;li&gt;I choose VARCHAR with a 15 character length to support country codes as well&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;After making all the above changes, I have removed customer table from pre-owned design.&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="770" y="613" width="670" height="270" as="geometry" />
         </mxCell>
       </root>
